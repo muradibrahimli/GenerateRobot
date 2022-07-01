@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateRobot", "GenerateRobot\GenerateRobot.csproj", "{623BA6B8-2044-442D-83EF-426F9C46AC2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{623BA6B8-2044-442D-83EF-426F9C46AC2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{623BA6B8-2044-442D-83EF-426F9C46AC2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{623BA6B8-2044-442D-83EF-426F9C46AC2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{623BA6B8-2044-442D-83EF-426F9C46AC2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
