@@ -1,5 +1,0 @@
-C:\Users\ZenBook\RiderProjects\GenerateRobot\GenerateRobot\obj\Debug\net5.0\GenerateRobot.csproj.AssemblyReference.cache
-C:\Users\ZenBook\RiderProjects\GenerateRobot\GenerateRobot\obj\Debug\net5.0\GenerateRobot.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ZenBook\RiderProjects\GenerateRobot\GenerateRobot\obj\Debug\net5.0\GenerateRobot.AssemblyInfoInputs.cache
-C:\Users\ZenBook\RiderProjects\GenerateRobot\GenerateRobot\obj\Debug\net5.0\GenerateRobot.AssemblyInfo.cs
-C:\Users\ZenBook\RiderProjects\GenerateRobot\GenerateRobot\obj\Debug\net5.0\GenerateRobot.csproj.CoreCompileInputs.cache
