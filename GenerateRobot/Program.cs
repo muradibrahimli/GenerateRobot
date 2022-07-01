@@ -45,6 +45,16 @@ namespace GenerateRobot
             {
                 Directory.CreateDirectory(subFolderPath);
             }
+            
+            //create stream from url
+            // Image image1 = Image.FromStream(new Uri("",UriKind.Absolute));
+            Image image1 = Image.FromFile(@"Images\v1_mil1_legs.png");
+            Image image2 = Image.FromFile(@"Images\v1_mil1_head.png");
+            using (Graphics g = Graphics.FromImage(image1))
+            {
+                g.DrawImageUnscaled(image2, 10, 140);
+                image1.Save(@$"{subFolderPath}\final.png", ImageFormat.Png);
+            }
 
            
         }
