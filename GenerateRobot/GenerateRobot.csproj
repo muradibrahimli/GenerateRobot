@@ -18,6 +18,9 @@
         <None Update="Images\v1_mil1_legs.png">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
+        <None Update="Images\v1_mil1_torso.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
     </ItemGroup>
 
 </Project>

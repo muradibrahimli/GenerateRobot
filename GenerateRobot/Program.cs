@@ -4,6 +4,7 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Drawing.Imaging;
 using System.IO;
+using System.Net;
 using System.Net.Mime;
 namespace GenerateRobot
 {
@@ -37,6 +38,16 @@ namespace GenerateRobot
 
             #endregion
 
+            
+            WebRequest request = 
+                WebRequest.Create(
+                    "https://drive.google.com/file/d/1ZeXx7g-YEYD_8BhoqCNk4is-evh2g4FQ/view");
+            WebResponse response = request.GetResponse();
+            Stream responseStream = 
+                response.GetResponseStream();
+
+            Image image4 = Image.FromStream(responseStream);
+            
 
             var path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             var subFolderPath = Path.Combine(path, "Test");
@@ -52,7 +63,7 @@ namespace GenerateRobot
             Image image2 = Image.FromFile(@"Images\v1_mil1_head.png");
             using (Graphics g = Graphics.FromImage(image1))
             {
-                g.DrawImageUnscaled(image2, 10, 140);
+                g.DrawImageUnscaled(image4, 10, 140);
                 image1.Save(@$"{subFolderPath}\final.png", ImageFormat.Png);
             }
 
